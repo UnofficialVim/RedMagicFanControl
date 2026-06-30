@@ -1,25 +1,10 @@
 # RedMagic Fan Control
 
-A systemless fan control solution for RedMagic devices using a Magisk module.
-
-## Overview
-
-RedMagic Fan Control is a Magisk-based project that provides control over the built-in cooling fan on supported RedMagic phones.
-
-The project is split into two parts:
-
-- **Magisk Module** — handles root access, hardware communication, and fan control
-- **Android App** — provides a user interface for controlling and monitoring the module (planned)
+A Magisk module and Android companion app for controlling and automating the internal cooling fan found in supported RedMagic devices.
 
 ## Features
-
 Currently:
-
-- Magisk module structure
-- Boot-time daemon
-- Fan hardware detection foundation
-- Config-based design
-
+  
 Planned:
 
 - Fan status monitoring
@@ -28,10 +13,44 @@ Planned:
 - Local socket API
 - Native Android companion app
 
+## Status
+
+⚠️ Early development
+
+Current progress:
+
+* [x] Repository setup
+* [x] Magisk module structure
+* [ ] Fan daemon
+* [ ] Device detection
+* [ ] Call state monitoring
+* [ ] Temp-based fan curves
+* [ ] Unix socket API
+* [ ] Android app
+* [ ] RPM monitoring
+* [ ] Multi-device support
+
 ## Supported Devices
 
-Target device:
-- RedMagic 9 pro
+Planned support:
 
-Support depends on whether the device exposes compatible fan controls.
+* RedMagic 9 Pro
+
+Additional devices may be supported if compatible fan interfaces are available.
+
+## Requirements
+
+### Module
+
+* Magisk
+* Root access
+* Supported RedMagic device
+
+### App
+
+* Android 11+ (API 30+)
+
+## Disclaimer
+
+This project modifies fan behavior at the system level. Use at your own risk. The authors are not responsible for overheating, hardware damage, data loss, or other issues resulting from use of this software.
 
