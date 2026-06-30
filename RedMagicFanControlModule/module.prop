@@ -1,0 +1,6 @@
+id=redmagic-fan-control
+name=RedMagic Fan Control
+version=0.1.0
+versionCode=1 
+author=UnofficialVim
+description=RedMagic fan control module with local API
