@@ -2,6 +2,6 @@
 
 MODDIR=${0%/*}
 
-chmod 755 "$MODDIR/daemon/fan-daemon.sh"
+chmod 755 "$MODDIR/daemon/fancontroller-daemon.sh"
 
-"$MODDIR/daemon/fan-daemon.sh" &
+"$MODDIR/daemon/fancontroller-daemon.sh" &
