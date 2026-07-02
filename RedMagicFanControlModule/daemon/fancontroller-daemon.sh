@@ -2,11 +2,14 @@
 
 MODDIR=${0%/*}/..
 
-LOG="/data/adb/redmagic-fan-control.log"
+LOGFILE="/data/adb/redmagic-fan-control.log"
 
 log()
 {
-    printf "$(date): $1" >> "$LOG" \n
+    echo "$(date) $1" >> "$LOGFILE"
+
+    tail -n 500 "$LOGFILE" > "$LOGFILE.tmp"
+    mv "$LOGFILE.tmp" "$LOGFILE"
 }
 log "$FAN_DIR"
 

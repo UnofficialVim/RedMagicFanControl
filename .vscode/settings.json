@@ -2,5 +2,9 @@
     "cSpell.ignoreWords": [
         "MODDIR",
         "redmagic"
+    ],
+    "cSpell.words": [
+        "Magisk",
+        "MODPATH"
     ]
 }

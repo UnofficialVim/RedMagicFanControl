@@ -8,9 +8,9 @@ if [ -n "$FAN_DIR" ]; then
 else
     ui_print "Fan path missing"
     ui_print "Aborting installation"
-    exit 1
+    abort
 fi
 
 # Set the fan control path in the json file
-sed -i "s|\"fan_path\": \".*\"|\"fan_path\": \"$FAN_DIR\"|" "$MODPATH/schema.json"
+sed -i "s|\"fan_path\": \".*\"|\"fan_path\": \"$FAN_DIR\"|" "$MODPATH/config/config.json"
 
