@@ -25,7 +25,7 @@ Current progress:
 * [ ] Device detection
 * [ ] Call state monitoring
 * [ ] Temp-based fan curves
-* [ ] Unix socket API
+* [ ] API
 * [ ] Android app
 * [ ] RPM monitoring
 * [ ] Multi-device support
