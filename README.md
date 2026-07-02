@@ -19,7 +19,6 @@ Planned:
 
 Current progress:
 
-* [x] Repository setup
 * [x] Magisk module structure
 * [ ] Fan daemon
 * [ ] Device detection
