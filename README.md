@@ -15,12 +15,12 @@ Planned:
 
 ## Status
 
-⚠️ Early development
+Early development
 
 Current progress:
 
 * [x] Magisk module structure
-* [ ] Fan daemon
+* [ ] daemon - Refer to [redmagicfancontrold](https://github.com/UnofficialVim/redmagicfancontrold) for updates on the daemon
 * [ ] Device detection
 * [ ] Call state monitoring
 * [ ] Temp-based fan curves
