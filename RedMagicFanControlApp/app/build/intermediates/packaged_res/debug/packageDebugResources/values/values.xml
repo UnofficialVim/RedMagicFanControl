@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#1B3A63</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Device Monitor</string>
+    <string name="back_cd">Back</string>
+    <string name="home_title">Device Monitor</string>
+    <string name="not_connected">Not connected</string>
+    <string name="pref_dark_theme">Dark theme</string>
+    <string name="pref_dark_theme_desc">Override the system setting</string>
+    <string name="pref_dynamic_color">Dynamic color</string>
+    <string name="pref_dynamic_color_desc">Use colors from your wallpaper</string>
+    <string name="pref_reconnect">Reconnect</string>
+    <string name="pref_socket_path">Socket path</string>
+    <string name="pref_version">Version</string>
+    <string name="reading_battery">Battery</string>
+    <string name="reading_daemon">Daemon status</string>
+    <string name="reading_memory">Available memory</string>
+    <string name="reading_storage">Free storage</string>
+    <string name="section_about">About</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_connection">Connection</string>
+    <string name="settings_cd">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="status_idle">Idle</string>
+    <style name="Theme.DeviceMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

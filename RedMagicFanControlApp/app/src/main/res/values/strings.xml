@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">RedMagicFanControl</string>
+    <string name="app_name">Device Monitor</string>
+
+    <string name="home_title">Device Monitor</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_cd">Settings</string>
+    <string name="back_cd">Back</string>
+
+    <string name="reading_battery">Battery</string>
+    <string name="reading_memory">Available memory</string>
+    <string name="reading_storage">Free storage</string>
+    <string name="reading_daemon">Daemon status</string>
+    <string name="not_connected">Not connected</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="pref_dynamic_color">Dynamic color</string>
+    <string name="pref_dynamic_color_desc">Use colors from your wallpaper</string>
+    <string name="pref_dark_theme">Dark theme</string>
+    <string name="pref_dark_theme_desc">Override the system setting</string>
+
+    <string name="section_connection">Connection</string>
+    <string name="pref_socket_path">Socket path</string>
+    <string name="pref_reconnect">Reconnect</string>
+    <string name="status_idle">Idle</string>
+
+    <string name="section_about">About</string>
+    <string name="pref_version">Version</string>
 </resources>

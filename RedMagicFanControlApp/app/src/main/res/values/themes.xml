@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.RedMagicFanControl" parent="android:Theme.Material.Light.NoActionBar" />
+    <!--
+        Compose owns the actual UI theming (see ui/theme/Theme.kt). This
+        platform theme only controls the window before Compose draws
+        (background flash, status/nav bar) and is switched automatically
+        by the values-night variant.
+    -->
+    <style name="Theme.DeviceMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
 </resources>
