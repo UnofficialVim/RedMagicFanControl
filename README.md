@@ -23,10 +23,10 @@ Current progress:
 * [ ] daemon - Refer to [redmagicfancontrold](https://github.com/UnofficialVim/redmagicfancontrold) for updates on the daemon
 * [ ] Device detection
 * [ ] Call state monitoring
-* [ ] Temp-based fan curves
-* [ ] API
-* [ ] Android app
-* [ ] RPM monitoring
+* [x] Temp-based fan curves
+* [x] API
+* [x] Android app
+* [x] RPM monitoring
 * [ ] Multi-device support
 
 ## Supported Devices
